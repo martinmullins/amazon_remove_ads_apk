@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        style="@style/customProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progbar"
+        android:layout_weight="1"
+        android:indeterminateDrawable="@drawable/lolol" />
+
+    <Button
+        android:text="@string/step1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="step1Func"
+        android:id="@+id/step1_btn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step2_btn"
+        android:onClick="step2Func"
+        android:id="@+id/step2_btn"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Step 3"
+        android:onClick="step3Func"
+        android:id="@+id/step3_btn"
+        />
+</LinearLayout>

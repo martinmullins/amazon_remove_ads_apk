@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Amazon Ad Remover</string>
+    <string name="step1_btn">Run Step 1</string>
+    <string name="step2_btn">Run Step 2</string>
+</resources>
